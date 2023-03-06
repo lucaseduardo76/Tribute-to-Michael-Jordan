@@ -1,0 +1,439 @@
+
+@keyframes troca{
+    0%{background:linear-gradient(68deg, rgb(22, 21, 21) , #780707 );}
+    10%{background:linear-gradient(68deg, rgb(22, 21, 21), #780707 10%);}
+    20%{background:linear-gradient(68deg, rgb(22, 21, 21), #780707 40%);}
+    30%{background:linear-gradient(68deg, rgb(22, 21, 21), #780707 60%);}
+    40%{background:linear-gradient(68deg, rgb(22, 21, 21), #780707 80%);}
+    50%{background:linear-gradient(68deg, rgb(22, 21, 21), #780707 100%);}
+    60%{background:linear-gradient(68deg, #780707 ,    rgb(22, 21, 21) 110% );}
+    70%{background:linear-gradient(68deg, #780707 ,    rgb(22, 21, 21)100% );}
+    80%{background:linear-gradient(68deg, #780707 ,    rgb(22, 21, 21)80% );}
+    90%{background:linear-gradient(68deg, #780707 ,    rgb(22, 21, 21) 40% );}
+    100%{background:linear-gradient(68deg,#780707 ,    rgb(22, 21, 21) 10%);}
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+}
+
+header{
+    height: 150px;
+    background:linear-gradient(68deg, rgb(22, 21, 21), #780707 );
+    color: white;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.animation{
+    
+    margin-bottom: 20px ;
+    animation-name:troca ;
+    animation-duration: 1s;
+    animation-iteration-count: infinite; 
+    padding: 4px;
+    
+}
+.container-titulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+.container-titulo h1{
+    font-size: 50px;
+    font-weight: 350;
+  
+}
+.container-titulo h4{
+    font-size: 20px;
+}
+
+.imagens-topo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}
+.img-center{
+    height: 450px;
+    border-radius: 50px ;
+}
+
+.img-lado{
+    height:250px;
+}
+
+.titulo-timeline{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: #444;
+}
+.sub-titulo-timeline{
+    font-size: 18px; 
+    border-bottom:2px solid #777;
+    padding-bottom: 2px; 
+    margin-bottom: 20px;
+}
+.container-timeline{
+    display: flex;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+       
+}
+.left span{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    
+    padding: 15px;
+    
+    color: #444;
+}
+.left span h4{
+    border-right: #fff 5px solid;
+    padding-right: 8px;
+}
+.left{
+    margin-left: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: space-between;
+    height: 464px;
+    width: 680px;
+    
+    
+    
+}
+.right span{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;    
+    padding: 15px;
+   
+    color: #444;
+}
+.ano1, .ano2, .ano3{
+        
+    background-color: #d89595;
+}
+.ano4, .ano5, .ano6{
+    background-color: #c8c8c8;
+}
+.right span h4{
+    border-left: #fff 5px solid;
+    padding-left: 8px;
+}
+.right{
+    margin-left: 10px;
+    margin-top: 50px;
+    margin-right: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 680px;    
+    height: 464px;
+    
+    
+}
+.ano{
+    margin-bottom: 20px;
+}
+main{
+    margin-bottom: 100px;
+}
+aside{
+    display: flex;
+    justify-content: center;    
+}
+
+.fotos-footer img{
+    max-width:300px;
+    max-height:300px;
+    width: auto;
+    height: auto; 
+    border: #070000 solid;    
+    box-shadow: 5px 5px #666;
+}
+.fotos-footer{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+    
+}
+.titulo-fotos h1{
+    margin: auto;
+
+}
+.titulo-fotos{
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: 350;
+    width: 250px;
+    padding: 10px;
+    color: #c8c8c8;
+    background:linear-gradient(68deg, rgb(22, 21, 21), #780707 );
+    justify-items: center;
+    display: flex;
+}
+.jovem, .bulls, .aposentado{
+    display: flex;
+   
+    justify-content: space-around;
+    margin-bottom: 70px;
+    width: 1300px;
+}
+footer{
+    height: 60px;
+    background-color: #780707;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+.fonts a{
+        color: #c8c8c8;
+        transition: all 0.5s linear;
+}
+.fonts a:hover{
+    background-color: rgb(189, 185, 185);
+    color: #070000;
+    padding: 1px;
+    border-radius: 2px;
+    
+}
+
+.fonts{
+    color: #c8c8c8;
+    font-size: 20px;
+}
+.copy img{
+    height: 20px;
+    
+}
+.copy{
+    display: flex;
+    justify-items: center;
+    margin-top: 5px;
+    color: #070000;
+    background-color: rgb(189, 185, 185);
+    padding: 4px;
+    border-radius: 10px;
+}
+
+body{
+    background-color: #07000026;
+}
+
+
+
+
+@media (max-width: 1300px) {
+   footer, header{
+    width: 100%;
+    
+   }
+   .jovem, .bulls, .aposentado{
+    
+    width: 1000px;
+}
+    
+}
+@media (max-width: 980px) {
+     .jovem, .bulls, .aposentado{
+     flex-direction: column;
+     width: 500px;
+     align-items: center;
+    }
+     
+    .fotos-footer img{
+    margin-left: 5px;
+    margin-bottom: 15px;
+    
+    }
+ }
+@media (max-width:860px) {
+    .container-timeline{
+        flex-direction: column;      
+         
+        align-items: center; 
+        height: 670px;
+    }
+    .ano{
+        padding-left: 15px;
+    }
+    .container-timeline h4{
+        padding-left: 15px;
+    }       
+    .right, .left{
+        align-items: center;        
+        margin-left: 0%;
+        margin-right: 0%;
+        padding-left: 15px;
+        padding-right: 15px;
+        width: 90%;        
+        justify-content: start;
+        margin-top: 0;        
+    }
+    .right{
+        height: 345px;
+    }
+    .left{
+        height: 325px;
+    }
+    .left span{
+        align-items: flex-start;     
+        width: 100%;
+        margin-bottom: 0;
+        margin-left: none;
+        padding-left: none;        
+    }
+
+    .right span{
+        width: 100%;
+        padding-left: 15px;
+    }
+
+    .left span h4{
+        border-left: #fff 5px solid;
+        padding-left: 8px;
+        padding-right: none;
+        border-right: none;
+    }
+    .ano1, .ano3, .ano5{
+        
+        background-color: #d89595;
+    }
+    .ano2, .ano4, .ano6{
+        background-color: #c8c8c8;
+    }    
+    .img-center{
+        height: 350px; 
+    }
+    .img-lado{
+        height:200px;
+    }
+}
+@media (max-width:710px) {
+    .container-timeline{
+        height: 770px;
+    }
+    
+    .container-titulo h1{
+        font-size: 30px;
+    }
+
+    .container-titulo h4{
+        font-size: 14px;
+    }
+    
+    .sub-titulo-timeline{
+        font-size: 15px;
+    }
+    
+    .img-center{
+        height: 280px;
+    }
+
+    .img-lado{
+        height: 150px;
+    }
+}
+@media (max-width:595px) {
+    .img-center{
+        height: 250px;
+    }
+    .img-lado{
+        height: 120px;
+    }
+    .sub-titulo-timeline{
+        font-size: 12px;
+    }
+    .left{
+        
+        height: 360px;
+    }
+
+
+}
+@media (max-width:510px) {
+    .container-timeline{
+        height: 900px;
+    }
+  
+    
+   
+
+}
+@media (max-width:480px) {
+    .img-center{
+        height: 200px;
+    }
+    .img-lado{
+        height: 90px;
+    }
+    .sub-titulo-timeline{
+        font-size: 10px;
+    }
+    .titulo-timeline{
+        font-size: 20px;
+    }
+
+    .left{
+        
+        height: 370px;
+    }
+    .sub-titulo-timeline{
+        font-size: 8.5px;
+    }
+    .container-titulo h1{
+        font-size: 24px;
+    }
+    .container-titulo h4{
+        font-size: 12px;
+    }
+
+
+
+}
+
+@media (max-width:375px) {
+    .container-titulo h1{
+        font-size: 22px;
+    }
+    .container-titulo h4{
+        font-size: 12px;
+    }
+    
+}
+@media (max-width:330px){
+    .left{
+        height: 425px;
+    }
+    .container-titulo h1{
+        font-size: 18px;
+    }
+    .container-titulo h4{
+        font-size: 9px;
+    }
+    .img-center{
+        height:170px;
+    }
+    .img-lado{
+        height: 70px;
+    }
+    .titulo-timeline{
+        font-size: 18px;
+    }
+}
