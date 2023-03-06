@@ -165,7 +165,7 @@ aside{
     width: auto;
     height: auto; 
     border: #070000 solid;    
-    box-shadow: 5px 5px #666;
+    box-shadow: 20px 15px  15px  #666;
 }
 .fotos-footer{
    display: flex;
